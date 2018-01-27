@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#bodyDiv{
+	/*margin-left: 25%;*/
+	padding: 0;
+}
+.headings {
+	font-family: 'VT323', monospace;
+	background-color: green;
+}
+
+#specialHeader {
+	color :MidnightBlue;
+}
+img {
+	width:30%;
+}
+.headings h2 {
+	text-decoration: underline;
+}
+h3, h6 { 
+	font-family: 'VT323', monospace;
+	font-style:italic;
+} 
+p {
+	font-style:italic 
+}
+
+/*img {
+	display: inline-block;
+}*/
+.navigation {
+	list-style-type: none;
+	margin: -50px 0 0 0;
+	padding: 0;
+	width:100%;
+	background-color:#f1f1f1;
+	position:fixed;
+	overflow: auto;
+	border: 5px dotted green;
+}
+
+
+.navigation li {
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+.navigation li a {
+	color:#000;
+	text-decoration: none;
+}
+
+.outer {
+		margin-top: 50px;
+}
+
+.left {
+
+	width: 20%;
+	background-color: blue;
+}
+.right {
+	width: 80%;
+	background-color: red;
+}
+
+.navigation li:hover, .navigation a:hover {
+	background-color: #555000;
+	color: white !important;
+}
